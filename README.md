@@ -50,7 +50,7 @@ wave4 alone:   ))))))))))))    (concentric rings)
 all four added: the plasma mess you see
 ```
 
-this `v` value if clamped to a [1 to 255] and gets its pixel colour and this is thrown on the monitor using `StretchDIBits`
+this `v` value is clamped to a [1 to 255] value and gets its pixel colour and this is thrown onto the monitor using `StretchDIBits`
 
 this is done for all the pixels in the 2-nested for loop  and the pixel's colour gets assigned for each passing time `t`
 simulating the animation 
