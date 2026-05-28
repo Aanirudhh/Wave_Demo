@@ -1,6 +1,6 @@
 # Wave Demo
 
-Demonstarting plasma/ wave flow and even how waves interact with each other on superposition , 
+Demonstarting plasma/ wave flow and even how waves interact with each other on superposition using Win32 API C++ only using raw pixel buffer .
 
 ## Preview
 
@@ -21,7 +21,7 @@ Five switchable plasma modes, all animated in real time:
 Requires MinGW (GCC for Windows).
 
 ```bash
-g++ plasma.cpp -o plasma.exe -mwindows
+g++ wave.cpp -o wave.exe -mwindows
 ```
 
 > `-mwindows` suppresses the console window.
