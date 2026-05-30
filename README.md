@@ -21,7 +21,7 @@ Five switchable plasma modes, all animated in real time:
 Requires MinGW (GCC for Windows).
 
 ```bash
-g++ wave.cpp -o wave.exe -mwindows
+g++ wave.cpp -o wave.exe -mwindows && ./wave.exe
 ```
 
 > `-mwindows` suppresses the console window.
