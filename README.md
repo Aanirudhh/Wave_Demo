@@ -63,7 +63,3 @@ The way we superposition it is the reason behind every different plasma modes .
 You can change it to whatever colours you want by changing the values of `r` `g` `b` values in build_palette()  
 by still keeping the  `r` `g` `b` values a f(t) .
 
-## Requirements
-
-- Windows
-- MinGW / g++
