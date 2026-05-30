@@ -50,7 +50,7 @@ wave4 alone:   ))))))))))))    (concentric rings)
 all four added: the plasma mess you see
 ```
 
-this `v` value is clamped to a [1 to 255] value and gets its pixel colour and this is thrown onto the monitor using `StretchDIBits`
+this `v` value is clamped to a [0 to 255] value and gets its pixel colour and this is thrown onto the monitor using `StretchDIBits`
 
 this is done for all the pixels in the 2-nested for loop  and the pixel's colour gets assigned for each passing time `t`
 simulating the animation 
@@ -61,7 +61,7 @@ The way we superposition it is the reason behind every different plasma modes .
 ## Modification
 
 You can change it to whatever colours you want by changing the values of `r` `g` `b` values in build_palette()  
-by still keeping the  `r` `g` `b` values a f(t) still .
+by still keeping the  `r` `g` `b` values a f(t) .
 
 ## Requirements
 
