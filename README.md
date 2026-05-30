@@ -8,9 +8,9 @@ Five switchable plasma modes, all animated in real time:
 
 | Key | Mode |
 |-----|------|
-| `1` | Classic sine waves |
+| `1` | Classic waves |
 | `2` | Ripple rings from a moving center |
-| `3` | Interference — two moving wave sources |
+| `3` | Interference of two moving wave sources |
 | `4` | Tunnel / zoom |
 | `5` | Twisted grid |
 
