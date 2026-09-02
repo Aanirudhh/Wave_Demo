@@ -1,5 +1,6 @@
 #include <windows.h>
 #include <math.h>
+#include <omp.h>
 
 // Framebuffer
 static bool       running       = true;
@@ -40,6 +41,7 @@ static void render_plasma(double t) {
     unsigned int* pixels = (unsigned int*)buffer_memory;
     float ft = (float)t;
 
+    #pragma omp parallel for schedule(dynamic, 8)
     for (int y = 0; y < HEIGHT; y++) {
         for (int x = 0; x < WIDTH; x++) {
             float fx = (float)x / WIDTH;
